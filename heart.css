@@ -28,6 +28,7 @@ canvas {
 }
 
 @keyframes float {
+
     from {
         transform: translateY(100vh);
         opacity: 0;

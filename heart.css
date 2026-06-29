@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#typing {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40px;
+    color: #ff4d6d;
+    font-size: 35px;
+    text-shadow: 0 0 15px #ff4d6d;
+}
+
+.heart {
+    position: absolute;
+    color: #ff4d6d;
+    animation: float 6s linear infinite;
+}
+
+@keyframes float {
+    from {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(-20vh);
+        opacity: 1;
+    }
+}
+
+s

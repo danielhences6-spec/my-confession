@@ -1,7 +1,7 @@
 // Play music after first click
 const music = document.getElementById("music");
 document.body.addEventListener("click", () => {
-    music.play().catch(() => {});
+    music.play().catch(() => { });
 }, { once: true });
 
 // Typewriter effect
@@ -79,4 +79,4 @@ function draw() {
     requestAnimationFrame(draw);
 }
 
-draw();ss
+draw();
